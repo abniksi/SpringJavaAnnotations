@@ -9,5 +9,6 @@
 	
 	<!-- Enabling component scanning -->
 	<context:component-scan base-package="com.luv2code.springDemo" />
+	<context:property-placeholder location="classpath:fortune.properties"/>
 	
 </beans>

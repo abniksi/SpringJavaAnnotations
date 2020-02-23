@@ -9,7 +9,7 @@ public class BaseballCoach implements Coach{
 	
 	//Field injection
 	@Autowired
-	@Qualifier("randomFortuneService")
+	@Qualifier("lifeExpectancyFortuneService")
 	private FortuneService fortuneService;
 	
 	//Constructor injection
